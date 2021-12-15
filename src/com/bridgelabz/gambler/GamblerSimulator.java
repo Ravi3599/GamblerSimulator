@@ -31,15 +31,7 @@ public class GamblerSimulator {
 		 			default:
 		 				System.out.println("default");
 				 }
-				 if(play == 1) {
-					 int perDayCash = cashInHand - AMOUNT_OF_STAKE;
-					 System.out.println("Player won the current play by "+perDayCash+" $");
-				 }
-				 else {
-					 int perDayCash = AMOUNT_OF_STAKE - cashInHand;
-					 System.out.println("Player lost the current play by "+perDayCash+" $");
-				 }
-		 
+				 
 			 }
 			 if(cashInHand==150 || cashInHand==50) {
 				 System.out.println("--------------------------------------------");
