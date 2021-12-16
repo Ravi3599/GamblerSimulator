@@ -14,7 +14,7 @@ public class GamblerSimulator {
 	  Scanner sc = new Scanner(System.in);
 	  boolean label = true;
 	  while(label) {
-	     System.out.println("******Month"+month+" gambling starts******");
+	     System.out.println(" ******Month"+month+" gambling starts******");
 		 System.out.println("Enter starting amount of stake ");
 		 int amountOfStake = sc.nextInt();
 		 System.out.println("Enter amount to bet ");
